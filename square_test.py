@@ -6,7 +6,7 @@ def teardown():
 @with_setup(setup,teardown)
 def test_square():
 	for value in range(1,11):
-		assert value*value == result[value]
+		assert square(value) == result[value]
 
 
 
