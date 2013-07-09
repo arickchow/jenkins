@@ -10,6 +10,7 @@ def test_square():
 def test_not_square():
 	for value in range(1,11):
 		assert not square(value) == not_square[value]
-
-
+	
+	for value in range(1,11):
+		assert not square(value+1) == result[value]
 
