@@ -1,4 +1,5 @@
 from square import square
+import nose
 
 result = [0,1,4,9,16,25,36,49,64,81,100]
 not_square = [0,100,81,64,49,35,25,16,9,4,1]
